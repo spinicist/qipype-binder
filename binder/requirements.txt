@@ -1,2 +1,2 @@
-qipype
+qipype>=0.2
 nanslice
