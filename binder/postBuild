@@ -3,7 +3,8 @@
 wget https://github.com/spinicist/QUIT/releases/download/v3.0/qi-linux.tar.gz
 tar xvzf qi-linux.tar.gz
 pwd
-ls
-echo $PATH
-export PATH=$PWD:$PATH
+ls -al
+mkdir -p .local/bin
+mv qi .local/bin
+ls -al .local/bin
 echo $PATH
